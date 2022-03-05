@@ -1,0 +1,590 @@
+body{
+    background: #EDEDF5;
+    font-size: 15px;
+}
+
+#submit_btndesign{
+    border-radius:20px;
+    color:white;
+    font-weight: bold;
+    background-color:#6C63FF;
+}
+
+
+
+/*                                                     User Login               */
+
+
+
+
+
+/*                                                     Percent                    */
+
+#mychart{
+    width:300px !important;
+    height:250px !important;
+}
+.canvas-con 
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 365px;
+    position: relative;
+}
+
+p 
+{
+  position: relative;
+  left: 194px;
+  margin-top: 64px;
+}
+
+.canvas-con-inner 
+{
+    height: 100%;
+}
+
+.canvas-con-inner, .legend-con 
+{
+    display: inline-block;
+}
+
+.legend-con
+{
+    font-family: Roboto;
+    display: inline-block;
+}
+
+.legend-con ul 
+{
+    list-style: none;
+}
+
+.legend-con li 
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.legend-con li span 
+{
+    display: inline-block;
+}
+
+.legend-con li span.chart-legend 
+{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+    
+/*                                               Rank page                               */
+
+.chard{
+    width: 290px;
+    height:50px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.rank_title
+{
+  text-align: center;
+  padding-right:60px;
+}
+.rank_photo
+{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-left: -25px;
+    display: inline;
+}
+
+.rank_name
+{
+    display:inline;
+    margin-left:15px;
+    border-bottom: 1px solid red;
+    width:300px;
+}
+
+
+.rank_no
+{
+    display: inline;
+    background-color:#00a3cc;
+    border-radius:50%;
+    padding:7px;
+    float: right;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+.rank_percent
+{
+    display: inline;
+    float: right;
+    margin-top:14px;
+    margin-right:15px;
+}
+
+/*                                        Profile page     */
+.caroules_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  
+  background-color: rgb(189, 214, 235);
+  color: black
+}
+
+.carousel-indicators li {
+  height: 0.8rem;
+  width: .8rem;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/*                                        Profile page   end  */
+
+/*
+.outer:hover .card{
+  animation-play-state: paused;
+}
+.wrapper .card:last-child{
+  animation-delay: calc(-3s * var(--delay));
+}
+@keyframes animate {
+  0%{
+    opacity: 0;
+    transform: translateY(100%) scale(0.5);
+  }
+  5%, 20%{
+    opacity: 0.4;
+    transform: translateY(100%) scale(0.7);
+  }
+  25%, 40%{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0%) scale(1);
+  }
+  45%, 60%{
+    opacity: 0.4;
+    transform: translateY(-100%) scale(0.7);
+  }
+  65%, 100%{
+    opacity: 0;
+    transform: translateY(-100%) scale(0.5);
+  }
+}
+.card .content{
+  display: flex;
+  align-items: center;
+}
+.wrapper .card .img{
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  left: -5px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+.card .img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card .details{
+  margin-left: 80px;
+}
+.details span{
+  font-weight: 600;
+  font-size: 18px;
+}
+.card a{
+  text-decoration: none;
+  padding: 7px 18px;
+  border-radius: 25px;
+  color: #fff;
+  background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
+  transition: all 0.3s ease;
+}
+.card a:hover{
+  transform: scale(0.94);
+}
+
+/*                                               Nav Bar       
+
+.navbar-toggler{
+    border: 5px solid;
+}
+.NavFloat{
+	/*margin-left: 75%; 
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.ulbackg{
+    /*width: 70px;
+    width: 340px;
+	border-bottom-left-radius: 20px;
+	background-color: #ffffff;
+    border-top-right-radius: 20px;
+	opacity: 0.9;
+    padding: 0px!important;
+    -webkit-box-shadow: 4px 9px 25px -6px rgba(77,77,77,0.61);
+    -moz-box-shadow: 4px 9px 25px -6px rgba(77,77,77,0.61);
+    box-shadow: 4px 9px 25px -6px rgba(77,77,77,0.61);
+}
+
+ul li:hover {
+    background-color: yellow;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 0.9;
+    display: block;
+  }
+
+*/
+
+/*                                              contact page  */
+
+
+ 
+
+/*
+
+
+ protected function sendFailedLoginResponse(Request $request)
+    {
+        $errors = [$this->email() => trans('auth.failed')];
+    
+        // Load user from database
+        $user = \App\User::where($this->email(), $request->{$this->email()})->first();
+    
+        if ($user && ($request->password==$user->password)) {
+            $errors = ['password' => 'Wrong password'];
+        }
+    
+        if ($request->expectsJson()) {
+            return response()->json($errors, 422);
+        }
+    
+        return redirect()->back()
+            ->withInput($request->only($this->email(), 'remember'))
+            ->withErrors($errors);
+    }
+
+
+
+
+
+
+    
+ <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                               <!-- {{ Auth::user()->email }}-->
+                            </a>
+col-xl-3 col-lg-3
+
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    {{ config('', 'UCSH Fresher Welcome') }}
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav mr-auto">
+
+                    </ul>
+
+                    <!-- Right Side Of Navbar -->
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Authentication Links -->
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->email }}
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
+                    </ul>
+                </div>
+            </div>
+        </nav>
+////////////////////////////////////////////////////////////
+
+ <nav class="navbar navbar-expand-lg navbar-light "> 
+                <button class="navbar-toggler custom-toggler" data-target="#Nav" data-toggle="collapse" >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="Nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav  mr-5 bg-secondary  mt-2 ulbackg">
+                        <li class="nav-item pr-3" id="nav_home"><a href="{{route('home')}}" class="nav-link text-light pl-2 " >Home</a></li>
+                        <li class="nav-item pr-3"><a href="#About" class="nav-link text-light pl-2">About</a></li>
+                        <li class="nav-item pr-3"><a href="#Education" class="nav-link text-light pl-2">Educat</a></li>
+                        <li class="nav-item pr-3"><a href="{{route('login')}}" class="nav-link text-light pl-2">Login</a></li>
+                        <li class="nav-item pr-3" id="nav_contact" ><a href="{{route('contact')}}" class="nav-link text-light pl-2" >Contact</a></li>                     
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Authentication Links -->
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                            </li>
+                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif
+                        @else
+                            <li class="nav-item dropdown">
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                    {{ Auth::user()->email }}
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ route('logout') }}"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        {{ __('Logout') }}
+                                    </a>
+
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                        @csrf
+                                    </form>
+                                </div>
+                            </li>
+                        @endguest
+                    </ul>
+                </div>
+            </nav>
+//////////////////////////////////////////////////////////
+
+
+        d-lg-none
+
+        <div class="fixed-top d-lg-none NavFloat" >
+
+
+
+
+
+        Swal.fire({
+  title: 'Submit your Github username',
+  input: 'text',
+  inputAttributes: {
+    autocapitalize: 'off'
+  },
+  showCancelButton: true,
+  confirmButtonText: 'Look up',
+  showLoaderOnConfirm: true,
+  preConfirm: (login) => {
+    return fetch(`//api.github.com/users/${login}`)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(response.statusText)
+        }
+        return response.json()
+      })
+      .catch(error => {
+        Swal.showValidationMessage(
+          `Request failed: ${error}`
+        )
+      })
+  },
+  allowOutsideClick: () => !Swal.isLoading()
+}).then((result) => {
+  if (result.isConfirmed) {
+    Swal.fire({
+      title: `${result.value.login}'s avatar`,
+      imageUrl: result.value.avatar_url
+    })
+  }
+})
+
+
+
+
+
+
+/////////////////
+
+const { value: email } = await Swal.fire({
+  title: 'Input email address',
+  input: 'email',
+  inputLabel: 'Your email address',
+  inputPlaceholder: 'Enter your email address'
+})
+
+if (email) {
+  Swal.fire(`Entered email: ${email}`)
+}
+////////////////////////////////////////
+
+swal({  title: 'Enter email address',
+                input: 'email'
+            }).then(function (email) {
+                                        swal({
+                                                type: 'success',
+                                                html: 'Your email: ' + email
+                                            })
+                                    })
+////////////////////
+function count()
+	{
+		$.ajax({
+					url:'/admin/count/'+{{$boy->id}},
+					type : 'GET',
+					success:function(data)
+					{
+						kcount=data.king_count;
+						pcount=data.prince_count;
+						show();
+						//bar();
+						
+					}
+				})			
+	}
+
+
+
+
+
+
+
+<div class="mb-3 progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">25%</div>
+        </div>
+
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Meh</div>
+            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">Wow!</div>
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Cool</div>
+            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">20%</div>
+            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">!!</div>
+        </div>
+
+        <div class="text-center">Stripes and Animations</div>
+        <div class="progress">
+            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">Stripes</div>
+            <div class="progress-bar progress-bar-animated bg-success progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">Animated Stripes</div>
+            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">Plain</div>
+        </div>
+
+
+        //////////////////////////////////////////////////////////////////////////////
+
+        <!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Vertical Card Slider | CodingNepal</title> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="outer">
+
+      <div class="card" style="--delay:-1;">
+        <div class="content">
+          <div class="img"><img src="#" alt=""></div>
+          <div class="details">
+            <span class="name">Sumit Kapoor</span>
+            <p>Frontend Developer</p>
+          </div>
+        </div>
+        <a href="#">Follow</a>
+      </div>
+
+
+      <div class="card" style="--delay:0;">
+        <div class="content">
+          <div class="img"><img src="#" alt=""></div>
+          <div class="details">
+            <span class="name">Andrew Neil</span>
+            <p>YouTuber & Blogger</p>
+          </div>
+        </div>
+        <a href="#">Follow</a>
+      </div>
+
+      <div class="card" style="--delay:1;">
+        <div class="content">
+          <div class="img"><img src="#" alt=""></div>
+          <div class="details">
+            <span class="name">Jasmine Carter</span>
+            <p>Freelancer & Vlogger</p>
+          </div>
+        </div>
+        <a href="#">Follow</a>
+      </div>
+
+
+      <div class="card" style="--delay:2;">
+        <div class="content">
+          <div class="img"><img src="#" alt=""></div>
+          <div class="details">
+            <span class="name">Justin Chung</span>
+            <p>Backend Developer</p>
+          </div>
+        </div>
+        <a href="#">Follow</a>
+      </div>
+
+
+      <div class="card" style="--delay:2;">
+        <div class="content">
+          <div class="img"><img src="#" alt=""></div>
+          <div class="details">
+            <span class="name">Adrina Calvo</span>
+            <p>Teacher & Advertiser</p>
+          </div>
+        </div>
+        <a href="#">Follow</a>
+      </div>
+      
+    </div>
+  </div>
+
+</body>
+</html>
+ */       
